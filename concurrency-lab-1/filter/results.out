@@ -1,0 +1,29 @@
+goos: linux
+goarch: amd64
+pkg: uk.ac.bris.cs/concurrency1/filter
+BenchmarkFilter/1_workers-8         	       1	 462020936 ns/op
+BenchmarkFilter/1_workers-8         	       1	 409894057 ns/op
+BenchmarkFilter/1_workers-8         	       1	 403080493 ns/op
+BenchmarkFilter/1_workers-8         	       1	 535419396 ns/op
+BenchmarkFilter/1_workers-8         	       1	 541017220 ns/op
+BenchmarkFilter/2_workers-8         	       1	 510367734 ns/op
+BenchmarkFilter/2_workers-8         	       1	 412673928 ns/op
+BenchmarkFilter/2_workers-8         	       1	 398265841 ns/op
+BenchmarkFilter/2_workers-8         	       1	 380444421 ns/op
+BenchmarkFilter/2_workers-8         	       1	 306729609 ns/op
+BenchmarkFilter/4_workers-8         	       1	 275291301 ns/op
+BenchmarkFilter/4_workers-8         	       1	 187938377 ns/op
+BenchmarkFilter/4_workers-8         	       1	 243323882 ns/op
+BenchmarkFilter/4_workers-8         	       1	 189575895 ns/op
+BenchmarkFilter/4_workers-8         	       1	 190392747 ns/op
+BenchmarkFilter/8_workers-8         	       1	 154836952 ns/op
+BenchmarkFilter/8_workers-8         	       1	 180534420 ns/op
+BenchmarkFilter/8_workers-8         	       1	 193898872 ns/op
+BenchmarkFilter/8_workers-8         	       1	 179738403 ns/op
+BenchmarkFilter/8_workers-8         	       1	 159370893 ns/op
+BenchmarkFilter/16_workers-8        	       1	 171639862 ns/op
+BenchmarkFilter/16_workers-8        	       1	 215668531 ns/op
+BenchmarkFilter/16_workers-8        	       1	 189192559 ns/op
+BenchmarkFilter/16_workers-8        	       1	 208272169 ns/op
+BenchmarkFilter/16_workers-8        	       1	 196135686 ns/op
+ok  	uk.ac.bris.cs/concurrency1/filter	15.112s

@@ -1,0 +1,44 @@
+goos: linux
+goarch: amd64
+pkg: uk.ac.bris.cs/concurrency1/merge
+BenchmarkSequential/524288-8         	       1	 235242692 ns/op
+BenchmarkSequential/524288-8         	       1	 222390670 ns/op
+BenchmarkSequential/524288-8         	       1	 178407180 ns/op
+BenchmarkSequential/524288-8         	       1	 188696584 ns/op
+BenchmarkSequential/524288-8         	       1	 180894330 ns/op
+BenchmarkSequential/1048576-8        	       1	 380160059 ns/op
+BenchmarkSequential/1048576-8        	       1	 390776041 ns/op
+BenchmarkSequential/1048576-8        	       1	 261792737 ns/op
+BenchmarkSequential/1048576-8        	       1	 404348833 ns/op
+BenchmarkSequential/1048576-8        	       1	 309623126 ns/op
+BenchmarkSequential/2097152-8        	       1	 899631975 ns/op
+BenchmarkSequential/2097152-8        	       1	 781665971 ns/op
+BenchmarkSequential/2097152-8        	       1	 693912847 ns/op
+BenchmarkSequential/2097152-8        	       1	 479933195 ns/op
+BenchmarkSequential/2097152-8        	       1	 499907071 ns/op
+BenchmarkSequential/4194304-8        	       1	1045454369 ns/op
+BenchmarkSequential/4194304-8        	       1	1097712471 ns/op
+BenchmarkSequential/4194304-8        	       1	 986215192 ns/op
+BenchmarkSequential/4194304-8        	       1	1030681736 ns/op
+BenchmarkSequential/4194304-8        	       1	1209316255 ns/op
+BenchmarkParallel/524288-8           	       1	  83835113 ns/op
+BenchmarkParallel/524288-8           	       1	  75953884 ns/op
+BenchmarkParallel/524288-8           	       1	 136836446 ns/op
+BenchmarkParallel/524288-8           	       1	 127380154 ns/op
+BenchmarkParallel/524288-8           	       1	 151324945 ns/op
+BenchmarkParallel/1048576-8          	       1	 200345565 ns/op
+BenchmarkParallel/1048576-8          	       1	 180189874 ns/op
+BenchmarkParallel/1048576-8          	       1	 213067821 ns/op
+BenchmarkParallel/1048576-8          	       1	 129704710 ns/op
+BenchmarkParallel/1048576-8          	       1	 183807854 ns/op
+BenchmarkParallel/2097152-8          	       1	 393491878 ns/op
+BenchmarkParallel/2097152-8          	       1	 372104959 ns/op
+BenchmarkParallel/2097152-8          	       1	 382224582 ns/op
+BenchmarkParallel/2097152-8          	       1	 292846041 ns/op
+BenchmarkParallel/2097152-8          	       1	 356669840 ns/op
+BenchmarkParallel/4194304-8          	       1	 678620178 ns/op
+BenchmarkParallel/4194304-8          	       1	 727208170 ns/op
+BenchmarkParallel/4194304-8          	       1	 794320013 ns/op
+BenchmarkParallel/4194304-8          	       1	 841337141 ns/op
+BenchmarkParallel/4194304-8          	       1	 818181042 ns/op
+ok  	uk.ac.bris.cs/concurrency1/merge	37.487s

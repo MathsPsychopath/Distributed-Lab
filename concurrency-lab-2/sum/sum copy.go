@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+	"sync"
+)
+
+func main() {
+	sum := 0
+	var wg sync.WaitGroup
+	for i := 0; i < 1000; i++ {
+		wg.Add(1)
+		sum++
+		wg.Done()
+	}
+	wg.Wait()
+	fmt.Println(sum)
+}
